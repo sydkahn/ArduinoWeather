@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "attiny85 arduino",
+			"path": "..\\attiny85 arduino"
+		},
+		{
+			"path": "..\\ESP_MQTT"
+		},
+		{
+			"name": "Read ATTiny85 test",
+			"path": "..\\Read ATTiny85 test"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

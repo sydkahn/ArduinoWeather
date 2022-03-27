@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 /*
   --------------------------------
   ESPConnect - AutoConnect Example
@@ -24,12 +22,13 @@
   #include <ESPAsyncWebServer.h>
 #endif
 #include <ESPConnect.h>
+#include <Adafruit_BME280.h> /// for the sensors
 
 AsyncWebServer server(80);
 
 
 void setup(){
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println();
 
   /*
